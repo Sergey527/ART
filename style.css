@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    max-width: 650px;
+    min-height: 280px;
+    position: relative;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.road {
+    margin: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(49deg, rgba(2,0,36,1) 0%, rgba(156,46,16,1) 100%);
+    z-index: 1;
+}
+
+.car {
+    top: unset;
+    left: unset;
+    bottom: 44px;
+    right: 61px;
+    z-index: 5;
+}
+
+.tree {
+    top: unset;
+    left: unset;
+    bottom: 81px;
+    right: 90px;
+    z-index: 4;
+}
+
+.cloud-one {
+    height: 75px;
+    width: 150px;
+    top: 15px;
+    left: -46px;
+    bottom: unset;
+    right: unset;
+    z-index: 2;
+}
+
+.cloud-two {
+    height: 75px;
+    width: 150px;
+    top: 36px;
+    left: 41px;
+    bottom: unset;
+    right: unset;
+    z-index: 1;
+}
+
+.cloud-three {
+    height: 75px;
+    width: 150px;
+    top: unset;
+    left: unset;
+    bottom: 182px;
+    right: 100px;
+    z-index: 2;
+}
